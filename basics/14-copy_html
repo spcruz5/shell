@@ -1,2 +1,2 @@
 #!/bin/bash
-cp Src_*.html ..
+cp basics/*.html .. 
