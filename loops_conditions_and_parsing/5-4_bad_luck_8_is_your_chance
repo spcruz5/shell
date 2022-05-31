@@ -14,7 +14,7 @@ do
 		break
 		echo "good luck"
 		else
-			continue
+			echo "Best School"
 
 fi
 
