@@ -6,10 +6,12 @@ do
 	echo "Best School"
     if [ $counter = 4 ] 
 	then
+		break
 		echo "bad luck"
 
 	elif [ $counter = 8 ]
 	then
+		break
 		echo "good luck"
 		else
 			continue
