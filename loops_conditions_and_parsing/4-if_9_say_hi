@@ -7,8 +7,8 @@ do
 	((counter++))
 
 	if [ $counter -ne 9 ] 
-		then
-		       continue	
-		fi
-		echo "Hi"
+	then
+		continue	
+	fi
+		echo "/nHi"
 done
