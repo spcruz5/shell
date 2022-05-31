@@ -10,5 +10,5 @@ do
 	then
 		continue	
 	fi
-		echo "/n Hi"
+		echo "Hi/n"
 done
