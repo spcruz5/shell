@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script to print 10 lines
-count=10
-for i in $(seq $count)
+for i in {1..10}
 do
 	echo "Best School$i"
 done
+printf "/n"
