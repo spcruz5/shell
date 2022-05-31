@@ -9,7 +9,7 @@ do
 	then
 		continue	
 	fi
-		echo "/n Hi"
+		echo "Hi"
 	
-	((counter++)) 
+((counter++)) 
 done
