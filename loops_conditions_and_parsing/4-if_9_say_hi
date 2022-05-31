@@ -5,11 +5,11 @@ while [ $counter -le 10 ]
 do
 	echo "Best School"
 
-	if [ $counter -ne 9 ] 
+	if [ $counter = 9 ] 
 	then
-		continue	
-	fi
 		echo "Hi"
+	fi
 	
-((counter++)) 
+	((counter++))  
+
 done
