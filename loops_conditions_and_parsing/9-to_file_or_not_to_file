@@ -16,11 +16,10 @@ if [ -e "$file" ] && [ -s "$file" ]
    elif [ -e "$file" ] || [ -s "$file" ]
    then
 	echo "$file file is empty"
-   else 
-	if [ -f "$file" ]
+fi
+
+if [ -f "$file" ]
 	then 
 	echo "$file is a regular file"
 	fi	
-   
-   fi
  
