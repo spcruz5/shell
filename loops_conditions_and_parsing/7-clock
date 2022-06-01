@@ -4,12 +4,12 @@ hours=0
 min=1
 while [[ $hours -le 12 ]]
 do
-	echo "Hours: $hours"
+	echo $hours
  ((hours++))
 
 while [[ $min -le 59 ]]
 do
-	echo "Minutes: $min"
+	echo $min
  ((min++)) 
 
 done
