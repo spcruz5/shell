@@ -8,6 +8,10 @@ else
 	echo "$file file does not exist"
 
 fi
+if [ -f "$file" ]
+        then
+        echo "$file is a regular file"
+        fi
 
 if [ -e "$file" ] && [ -s "$file" ]
    then
@@ -15,9 +19,4 @@ if [ -e "$file" ] && [ -s "$file" ]
    elif [ -e "$file" ] || [ -s "$file" ]
    then
 	echo "$file file is empty"
-fi
-if [ -f "$file" ]
-	then 
-	echo "$file is a regular file"
-	fi	
- 
+fi 
