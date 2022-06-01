@@ -2,11 +2,11 @@
 #Script that clock
 hours=0
 min=1
-while [[ $hours -le 12 ]]
+while [ $hours -le 12 ]
 do
 	echo "Hour: $hours"
-
 		((hours++))
+
 while [ $min -le 59 ]
 do
 	echo "$min"
