@@ -1,25 +1,17 @@
 #!/usr/bin/env bash
-#Script that timer
+#Script that clock
 hours=0
 min=1
 while [[ $hours -le 12 ]]
 do
- if [ $min = 1 ]
- then
-	 echo "Hour: 0"
- elif [ $hours = 0 ]
- then 
-	 echo "Hour: 1"
- else
-	 echo $hours
+	echo "Hour: $hours"
 
- fi
- ((hours++))
-
-while [[ $min -le 59 ]]
+		((hours++))
+while [ $min -le 59 ]
 do
-	echo $min
- ((min++)) 
+	echo "$min"
 
+	((min++))
+	
 done
-done 
+done	
