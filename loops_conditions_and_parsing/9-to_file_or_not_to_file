@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #Script that display file info
+file="School"
 for file in *
 do
    if [ -e "$file" ]
