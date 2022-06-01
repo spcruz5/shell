@@ -3,7 +3,7 @@
 file=school
 if [ -e "$file" ]
 then 
-	echo "$file file exist "
+	echo "$file file exists"
 if [ -s "$file" ]
    then
 	echo "$file file is not empty"
@@ -17,3 +17,4 @@ if [ -f "$file" ]
         echo "$file file does not exist"
 
         fi
+fi
