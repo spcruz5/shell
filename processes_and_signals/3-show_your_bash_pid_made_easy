@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Script that uses pgrep display bash
 
-pgrep -1 "bash"
+pgrep -l "bash"
