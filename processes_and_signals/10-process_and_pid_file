@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#Script that creates a file containing pid 
+
+sudo touch /var/run/myscript.pid
+sudo bash -c 'echo $$ > /var/run/myscript.pid'
+
+#Display to infinity
+#Display I hate SIGTERM
+
+trap 'echo "I hate the kill command"' 15
+
+while :
+do
+        echo "To infinity and beyond"
+        sleep 2
+done
+
+#Display Y U when signal SIGNIT
+
+trap 'echo "YU no love me?!"' 2 
+
+
+#Deletes the file and terminates SIGQUIT
+
+trap 'sudo rm /var/run/myscript.pid;exit' 3
