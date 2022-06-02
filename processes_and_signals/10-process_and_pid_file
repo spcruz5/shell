@@ -7,7 +7,7 @@ sudo bash -c 'echo $$ > /var/run/myscript.pid'
 #Display to infinity
 #Display I hate SIGTERM
 
-trap 'echo "I hate the kill command"' 15
+trap 'echo "I hate the kill command"; sudo rm /var/run/myscript.pid;exit' 15 
 
 while :
 do
