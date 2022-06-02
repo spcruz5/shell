@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Script that stops infinite loop
 
-pkill -f "highlander"
+killall -9 -ir "highlander"
