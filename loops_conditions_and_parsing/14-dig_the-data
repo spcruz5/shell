@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script that groups visitors with IP and HTTP using awk
+
+awk '{print $1,$9}' apache-access.log | sort | uniq -c | sort -nr
