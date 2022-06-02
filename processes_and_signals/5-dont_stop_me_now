@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script that print infinit loop
+
+kill "$(ps -x | pkill -f beyond)"
